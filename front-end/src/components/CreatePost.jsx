@@ -14,7 +14,7 @@ const CreatePost = () => {
     formData.append('title', title);
     formData.append('content', content);
     if (image) {
-      formData.append('image', image); // Append the image file
+      formData.append('image', image);
     }
 
     try {
